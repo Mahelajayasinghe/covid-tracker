@@ -1,0 +1,33 @@
+
+.widget3{
+    font-size: smaller;
+    color:gray;
+}
+
+.widget1{
+    border-radius: 15px;
+    border: 2px solid indianred;
+    margin: 19px 5px;
+    padding: 20px 5px;
+}
+
+.widget2{
+    border-radius: 15px;
+    border: 2px solid darkcyan;
+    margin: 19px 5px;
+    padding: 20px 5px;
+}
+
+.number1 , .number2{
+    margin-top: 5px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.number1{
+    color: indianred;
+}
+
+.number2{
+    color:darkcyan;
+}
