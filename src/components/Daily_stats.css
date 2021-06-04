@@ -7,14 +7,15 @@
 .widget1{
     border-radius: 15px;
     border: 2px solid indianred;
-    margin: 19px 5px;
+    margin: 50px 0px;
     padding: 20px 5px;
+
 }
 
 .widget2{
     border-radius: 15px;
     border: 2px solid darkcyan;
-    margin: 19px 5px;
+    margin: 19px 0px;
     padding: 20px 5px;
 }
 
@@ -30,4 +31,8 @@
 
 .number2{
     color:darkcyan;
+}
+
+.statTitle{
+    font-weight: 500;
 }
