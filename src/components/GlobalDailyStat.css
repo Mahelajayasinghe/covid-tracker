@@ -1,10 +1,6 @@
 
-.widget3{
-    font-size: smaller;
-    color:gray;
-}
 
-.widget1{
+.Gwidget1{
     border-radius: 15px;
     border: 2px solid indianred;
     margin: 50px 0px;
@@ -12,27 +8,38 @@
 
 }
 
-.widget2{
+.Gwidget2{
     border-radius: 15px;
     border: 2px solid darkcyan;
+    margin: 50px 0px;
+    padding: 20px 5px;
+}
+
+.Gwidget3{
+    border-radius: 15px;
+    border: 2px solid rgb(18, 151, 0);
     margin: 19px 0px;
     padding: 20px 5px;
 }
 
-.number1 , .number2{
+.Gnumber1 , .Gnumber2 ,.Gnumber3{
     margin-top: 5px;
     font-size:xx-large;
     font-weight: 700;
 }
 
-.number1{
+.Gnumber1{
     color: indianred;
 }
 
-.number2{
+.Gnumber2{
     color:darkcyan;
 }
 
-.statTitle{
+.Gnumber3{
+    color:rgb(18, 151, 0);
+}
+
+.GstatTitle{
     font-weight: 500;
 }

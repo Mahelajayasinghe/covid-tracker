@@ -14,7 +14,6 @@ function Getdata() {
     const [state, setstate] = useState({})
     const [pcr, setpcr] = useState([])
     const url = 'https://www.hpb.health.gov.lk/api/get-current-statistical'
-    const url2 = 'https://api.covid19api.com/summary'
 
     useEffect(() => {
         axios.get(url)
@@ -27,15 +26,7 @@ function Getdata() {
             console.log(error)
         })
 
-        axios.get(url2)
-        .then((response)=>{
-            console.log(response)
-        })
-        .catch((error)=>{
-            console.log(error)
-        })
-
-    },[url,url2])
+    },[url])
 
     return (
         <div className="grid-container">

@@ -30,7 +30,7 @@ function Pcrchart({name}) {
                 label: "Daily PCR Count",
                 data: Last30Count,
                 backgroundColor: ["rgba(255, 153, 0, 0.6)"],
-                borderWidth: 4,
+                borderWidth: 1,
                 fill:true
               }
             ]
@@ -40,11 +40,11 @@ function Pcrchart({name}) {
     
 
     return (
-        <div >
+        <div className="chart-container" style={{position:"relative",height:"40vh",width:"90vw"}}>
         <Bar
           data={chartData}
           options={{
-            responsive: true,
+            maintainAspectRatio: false,
             title: { text: "Daily PCR Count", display: true },
             plugins: {
                 decimation: decimation,

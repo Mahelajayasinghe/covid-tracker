@@ -1,0 +1,38 @@
+.Ggrid-container{
+    display: grid;
+    grid-row-gap:    30px;
+    grid-column-gap: 3rem;
+    margin: 0% 5%;
+    grid-template-columns: 25% 50% 25%;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.Gcontainer-1 div,img{
+    display: inline-block;
+    vertical-align: middle;
+    grid-template-columns: 1fr 1fr 2fr
+}
+.Gcontainer-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-radius: 20px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 15px;
+    background-color:rgb(255, 255, 255);
+    opacity: 95%;   
+}
+
+.Gcontainer-2 ,.Gcontainer-4,.Gcontainer-3{
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 3px 8px;
+    padding: 20px 20px;
+    background-color:white;
+    opacity: 95%; 
+}
+
+.Gcontainer-4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
