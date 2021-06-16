@@ -24,11 +24,20 @@
 }
 
 .Gcontainer-2 ,.Gcontainer-4,.Gcontainer-3{
+
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.5) 0px 3px 8px;
     padding: 20px 20px;
     background-color:white;
-    opacity: 95%; 
+    opacity: 95%;  
+}
+
+.Gcontainer-2 ,.Gcontainer-4{
+    height:fit-content;
+}
+
+.Gcontainer-3{
+    height: auto;
 }
 
 .Gcontainer-4{
