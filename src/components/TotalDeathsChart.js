@@ -57,7 +57,10 @@ function TotalDeathsChart({chartdata}) {
 
       
     return (
-        <div className="chart-container" style={{position:"relative",height:"90vh",width:"40vw"}}>
+        <div>
+        <h3 className="GstatTitle">Total Deaths by Country</h3>
+
+        <div className="chart-container" style={{position:"relative",height:"60vh/",width:"40vw"}}>
              {/* {deathsCount.map(x=><h6>{x}</h6>)}  */}
 
              <Bar
@@ -99,6 +102,8 @@ function TotalDeathsChart({chartdata}) {
                     }
                 }}
                 />
+        </div>
+
         </div>
     )
 }
